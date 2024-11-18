@@ -73,7 +73,7 @@ async function init() {
         const markdownContent = generateMarkdown(answers);
         
         // Write to README.md file
-        await writeToFile('./README.md', markdownContent);
+        await writeToFile('README.md', markdownContent);
     } catch (err) {
         console.error('Error initializing app:', err);
     }

@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   if (!license || license === 'None') return '';
   
@@ -11,7 +10,7 @@ function renderLicenseBadge(license) {
   
   return badges[license] || '';
 }
-// TODO: Create a function that returns the license link
+
 function renderLicenseLink(license) {
   if (!license || license === 'None') return '';
   
@@ -23,8 +22,8 @@ function renderLicenseLink(license) {
   };
   
    return links[license] || '';
+
 }
-// TODO: Create a function that returns the license section of README
 
 function renderLicenseSection(license) {
   if (!license || license === 'None') return '';
@@ -35,7 +34,7 @@ function renderLicenseSection(license) {
 This project is licensed under the ${license} license. ${renderLicenseBadge(license)}${renderLicenseLink(license)}
 `;
 }
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
     return `# ${data.title}
 
@@ -50,50 +49,50 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 ${data.license !== 'None' ? '* [License](#license)' : ''}
-* [Contributions](#contributions)
-* [Tests](#tests)
 * [Questions](#questions)
+* [Contributors](#contributors)
+* [Tests](#tests)
 
 ## Installation
-
 \`\`\`
 ${data.install}
 \`\`\`
-
+ 
 ## Usage
-
+To use this application, run the following command:
 \`\`\`
 ${data.usage}
 \`\`\`
 
-##Contributors
+${renderLicenseSection(data.license)}
 
+## Contributors
 \`\`\`
 ${data.contributors}
 \`\`\`
 
-##tests
-
+## Tests
 \`\`\`
 ${data.tests}
 \`\`\`
-
-\`\`\`
-
-## Questions
  
-For questions about this project, please contact me: 
-[Github](https://github.com/${data.github})
+## Questions
+For questions about this project, please contact me at: 
+[Github](https://github.com/${data.github}),
 [${data.email}](mailto:${data.email})
-
-${renderLicenseSection(data.license)}
-${data.license !== 'None' ? '* [License](#license)' : ''}
-
+ 
+ 
 `;
 }
 
 export default generateMarkdown;
 
+
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+// TODO: Create a function that returns the license link
+// TODO: Create a function that returns the license link
+// TODO: Create a function that returns the license section of README
 // NANCY MOVED FROM LINE 13 - TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 // TODO: Create a function that returns the license section of README
