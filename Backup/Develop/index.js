@@ -24,7 +24,7 @@ const questions = [
     {
         type: 'input',
         name: 'install',
-        message: 'Enter the installation instructions:',
+        message: 'What installations are required?',
     },
     {
         type: 'input',
@@ -33,22 +33,22 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'guidelines',
-        message: 'Please enter contribution guidelines:',
+        name: 'contributors',
+        message: 'Who contributed to this project?',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Please enter test instructions:',
+        message: 'What tests are required?',
     },
     {
         type: 'input',
-        name: 'userName',
-        message: 'Please enter your GitHub username?',
+        name: 'github',
+        message: 'Please enter your GitHub username:',
     },
     {
         type: 'input',
-        name: 'userEmail',
+        name: 'email',
         message: 'Please enter your email address:',
     }
 ];
@@ -73,7 +73,7 @@ async function init() {
         const markdownContent = generateMarkdown(answers);
         
         // Write to README.md file
-        await writeToFile('README.md', markdownContent);
+        await writeToFile('./README.md', markdownContent);
     } catch (err) {
         console.error('Error initializing app:', err);
     }
