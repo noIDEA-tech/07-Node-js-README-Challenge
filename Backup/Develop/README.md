@@ -1,46 +1,43 @@
-# README.md File Generator
+# Research
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-This project was designed to easily generate a README.md file for any project using Node.js and npm inquirer.
+This is a reusable application designed to easily create README.md files for any application
+
+## Rendered README.md
+![app_image](./assets/Image-README.md-Preview-Code.png)
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Questions](#questions)
-* [Contributors](#contributors)
-* [Tests](#tests)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
+- [Contributors](#contributors)
+- [Tests](#tests)
 
 ## Installation
-```
-Run commands 'npm i', 'npm init', 'npm install inquirer'
-```
+ 
+From integrated terminal root directory 'Develop' run these commands:  `npm i`   `npm init`  `npm install inquirer`
+ 
  
 ## Usage
-To use this application, run the following command:
-```
-Run command 'node index.js'
-```
-
-
+From integrated terminal root directory 'Develop' run this command: `node index.js`
+ 
 ## License
-
-This project is licensed under the MIT license. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contributors
-```
-Claude.ai, npm inquirer
-```
+ 
+Nancy Watreas, Claude ai
+ 
 
 ## Tests
-```
-Verification that a README.md file has been created
-```
+ 
+run `node index.js`
+ 
  
 ## Questions
 For questions about this project, please contact me at: 
