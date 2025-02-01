@@ -9,11 +9,13 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
+        validate: (input) => input.length > 0 ? true : 'Title is required!'
     },
     {
         type: 'input',
         name: 'description',
         message: 'Enter a description of your project:',
+        validate: (input) => input.length > 0 ? true : 'Description is required!'
     },
     {
         type: 'list',
@@ -25,16 +27,19 @@ const questions = [
         type: 'input',
         name: 'install',
         message: 'What installations are required?',
+        validate: (input) => input.length > 0 ? true : 'Installation instructions are required!'
     },
     {
         type: 'input',
         name: 'usage',
         message: 'Please enter information on how to use this project:',
+        validate: (input) => input.length > 0 ? true : 'Usage information required!'
     },
     {
         type: 'input',
         name: 'contributors',
         message: 'Who contributed to this project?',
+        validate: (input) => input.length > 0 ? true : 'Contributor input or NA required!'
     },
     {
         type: 'input',
@@ -45,11 +50,13 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'Please enter your GitHub username:',
+        validate: (input) => input.length > 0 ? true : 'GitHub username is required!'
     },
     {
         type: 'input',
         name: 'email',
         message: 'Please enter your email address:',
+        validate: (input) => input.length > 0 ? true : 'email address is required!'
     }
 ];
 
