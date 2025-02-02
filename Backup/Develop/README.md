@@ -1,43 +1,46 @@
-# Research
+# Demonstration of README.md Generator
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-This is a reusable application designed to easily create README.md files for any application
-
-## Rendered README.md
-![app_image](./assets/Image-README.md-Preview-Code.png)
+An application to easily create README.md files for any project
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Questions](#questions)
-- [Contributors](#contributors)
-- [Tests](#tests)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
+* [Contributors](#contributors)
+* [Tests](#tests)
 
 ## Installation
- 
-From integrated terminal root directory 'Develop' run these commands:  `npm i`   `npm init`  `npm install inquirer`
- 
+```
+npm i, npm init, npm install inquirer
+```
  
 ## Usage
-From integrated terminal root directory 'Develop' run this command: `node index.js`
- 
+To use this application, run the following command:
+```
+run node index.js from Develop folder
+```
+
+
 ## License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+This project is licensed under the MIT license. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+
 
 ## Contributors
- 
-Nancy Watreas, Claude ai
- 
+```
+Nancy Watreas
+```
 
 ## Tests
- 
-run `node index.js`
- 
+```
+node index.js
+```
  
 ## Questions
 For questions about this project, please contact me at: 
