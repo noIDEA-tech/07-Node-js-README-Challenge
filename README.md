@@ -1,13 +1,16 @@
-# Readme file
+# README.md CLI Generator 
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
-
 
 
 ## Description
 application
 
-![app_image](mockup.png)
+## Video Demonstration
 
+https://drive.google.com/file/d/1T8sRQ3clfHKkR5kK52yPWnAshSyZupe5/view
+ 
+![app_image](mockup.png)
+ 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,23 +21,23 @@ application
 - [Contact](#contact)
 
 ## Installation
-node, javascript, ,inquirer
+`npm install` `npm install inquirer`
 
 ## Usage
-run the index.js file
+From root directory (Develop), run:  `node index.js`
 
 ## Credits
-nancy
+Nancy Watreas
 
 ## License
 MIT
 
 ## Features
-provided a professional readme file
+Create professional README.md file from terminal
 
 
 
 ## Contact
-If there are any questions or concerns, I can be reached at:
+
 ##### [github: noIDEA-tech](https://github.com/noIDEA-tech)
 ##### [email: nwatreas2023@gmail.com](mailto:nwatreas2023@gmail.com)
